@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Welcome to my shared work and info!
 comments: true
 ---
