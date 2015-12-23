@@ -68,3 +68,99 @@ web_server:
 api: yes
 webui: yes
 ```
+```YAML
+tasks:
+  fill_movie_queue:
+    priority: 2
+    trakt_list:
+      username: '{{ secrets.trakt.usr }}'
+#      password: '{{ secrets.trakt.pwd }}'
+      list: watchlist
+      #strip_dates: yes
+      type: movies
+    accept_all: yes
+    movie_queue: add
+
+  #Last resort if movie can't be found
+  get_movies_720p:
+    priority: 3
+    content_size:
+      max: 5360
+      min: 724
+    exists_movie:
+      - /media/rt/media/Movies/
+    #assume_quality: 720p bluray #in case of REALLY long titles
+    quality: 480p-720p bluray+
+    movie_queue: accept
+    template: download-movie
+    pushbullet:
+      apikey: '{{ secrets.pushbullet.api }}'
+#      device: '{{ secrets.pushbullet.device }}'
+      title: "[Flexget] {{task}}"
+      body: "{{ imdb_name }} ({{ imdb_year }})\n{{ quality }}"
+      url: "{% if imdb_url %}{{ imdb_url }}{% endif %}"
+    # This is a custom plugin, it is part of my rar-unpacking method, it changes
+    # 'movedone' based on the regexp in the key
+
+  get_series:
+    priority: 4
+    content_size:
+      max: 2072
+      min: 60
+    exists_series:
+      - "/media/rt/media/TV Shows"
+    regexp:
+      reject:
+        - FASTSUB #French
+        - VOSTFR #French
+        - Subtitulado #Spanish
+        - Special-Wicked #Special trailer episodes from Once Upon a Time
+        - Magazine #No magazines on Arrow, thank you.
+        - NLsubs
+    content_filter:
+      reject:
+        - '*.avi' #Uhgg Jak!
+    verify_ssl_certificates: no
+    discover:
+      what:
+        - emit_series: yes
+ 
+      from:
+#        - torrentz: verified
+        - piratebay: yes
+#        - publichd: 
+#            category:
+#              - HDTV
+        - isohunt: tv
+#        - rarbg: 
+#            category:
+#              - HDTV
+        - kat:
+            category: tv
+            verified: yes
+      limit: 20
+    configure_series:
+      from:
+        trakt_list:
+          username: '{{ secrets.trakt.usr }}'
+#          password: '{{ secrets.trakt.pwd }}'
+          list: watchlist
+          type: shows
+#        listdir:
+#          - /volume1/Disk1/Library/TV Shows
+      settings:
+        quality: 480p-720p <=hdtv
+        identified_by: ep
+        exact: yes
+    set:
+      content_filename: "{{ series_name }} - {{ series_id }} ({{ quality|upper }})"
+#    template: rtorrent_download
+    download: /media/rt/watchfolder
+    pushbullet:
+      apikey: '{{ secrets.pushbullet.api }}'
+#      device: '{{ secrets.pushbullet.device }}'
+      title: "[Flexget] {{task}}"
+      body: "{{ tvdb_series_name|default(series_name) }} - {{ series_id }}{% if tvdb_ep_name|default(False) %} - {{ tvdb_ep_name }}{% endif %}\n{{ quality }}"
+      url: "{% if trakt_series_url is defined and trakt_season is defined and trakt_episode is defined %}{{ trakt_series_url }}/season/{{ trakt_season }}/episode/{{ trakt_episode }}{% endif %}"
+
+```
