@@ -101,7 +101,8 @@ tasks:
       url: "{% if imdb_url %}{{ imdb_url }}{% endif %}"
     # This is a custom plugin, it is part of my rar-unpacking method, it changes
     # 'movedone' based on the regexp in the key
-
+```
+```YAML
   get_series:
     priority: 4
     content_size:
