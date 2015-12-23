@@ -1,12 +1,11 @@
 ---
 layout: post
 title: My flexget config file!
-comments: true
+
 ---
 
 
-
-```
+```python
 
 #Make sure to run as --discover-now --no-cache
 secrets: secrets.yml
