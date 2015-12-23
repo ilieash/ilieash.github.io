@@ -1,4 +1,8 @@
-
+---
+layout: post
+title: My flexget config file!
+comments: true
+---
 
 
 
@@ -33,7 +37,7 @@ templates:
     rtorrent:
       uri: scgi://localhost:5000
       
-      path: '/media/rt/staging/'
+      path: '/***'
 
   download-movie:
     verify_ssl_certificates: no
@@ -60,7 +64,7 @@ templates:
     set:
       content_filename: "{{ imdb_name|replace('/', '_')|replace(':', ' -') }} ({{ imdb_year }}) - {{ quality }}"
 #    template: rtorrent_download
-    download: /media/rt/watchfolder
+    download: /***
 web_server:
   bind: 0.0.0.0
   port: 5050
@@ -86,7 +90,7 @@ tasks:
       max: 5360
       min: 724
     exists_movie:
-      - /media/rt/media/Movies/
+      - /***
     #assume_quality: 720p bluray #in case of REALLY long titles
     quality: 480p-720p bluray+
     movie_queue: accept
@@ -106,7 +110,7 @@ tasks:
       max: 2072
       min: 60
     exists_series:
-      - "/media/rt/media/TV Shows"
+      - "/***"
     regexp:
       reject:
         - FASTSUB #French
@@ -145,7 +149,7 @@ tasks:
           list: watchlist
           type: shows
 #        listdir:
-#          - /volume1/Disk1/Library/TV Shows
+#          - /***
       settings:
         quality: 480p-720p <=hdtv
         identified_by: ep
@@ -153,7 +157,7 @@ tasks:
     set:
       content_filename: "{{ series_name }} - {{ series_id }} ({{ quality|upper }})"
 #    template: rtorrent_download
-    download: /media/rt/watchfolder
+    download: /***
     pushbullet:
       apikey: '{{ secrets.pushbullet.api }}'
 #      device: '{{ secrets.pushbullet.device }}'
@@ -167,7 +171,7 @@ tasks:
       max: 3072
       min: 60
     exists_series:
-      - "/media/rt/media/TV Shows"
+      - "/***"
     regexp:
       reject:
         - FASTSUB #French
@@ -208,7 +212,7 @@ tasks:
           type: shows
           strip_dates: yes
 #        listdir:
-#          - /volume1/Disk1/Library/TV Shows
+#          - /***
       settings:
 #        quality: any
         identified_by: ep
@@ -216,12 +220,12 @@ tasks:
     set:
       content_filename: "{{ series_name }} - {{ series_id }} ({{ quality|upper }})"
 #    template: rtorrent_download
-    download: /media/rt/watchfolder
+    download: /***
   seed_series_db:
     # The filesystem plugin will find all of your existing episodes
     filesystem:
       regexp: .*(avi|mkv|mp4)$
-      path: "/media/rt/media/TV Shows"
+      path: "/***"
       recursive: yes
 #    template: tv
     configure_series:
@@ -252,7 +256,7 @@ tasks:
       movie: guessit
     filesystem:
       regexp: .*(avi|mkv|mp4)$
-      path: /media/rt/media/Movies/
+      path: /***
       recursive: true
     tmdb_lookup: yes 
     trakt_lookup: yes
