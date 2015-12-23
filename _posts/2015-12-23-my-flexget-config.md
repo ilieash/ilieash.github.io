@@ -6,7 +6,7 @@ comments: true
 
 
 
-```yaml
+```
 
 #Make sure to run as --discover-now --no-cache
 secrets: secrets.yml
