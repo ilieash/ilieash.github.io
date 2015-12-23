@@ -5,7 +5,7 @@ title: My flexget config file!
 ---
 
 
-```python
+```YAML
 
 #Make sure to run as --discover-now --no-cache
 secrets: secrets.yml
