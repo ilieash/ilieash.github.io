@@ -103,4 +103,4 @@ tasks:
     # 'movedone' based on the regexp in the key
 ```
 #The full config file is below.
-[Flexget config.yml](/file/files/config.yml)
+[Flexget config.yml](/files/config.yml)
