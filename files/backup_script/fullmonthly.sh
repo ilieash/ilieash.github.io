@@ -1,5 +1,5 @@
-export PASSPHRASE='BuL-?F3rx@Jx*3jF=wvjhLdSxKPYqk4Rxat$&yNhV+9^K5#2CEE%gGXKGksjY28wdK4#ww-YKEE-Wnd$VQTh+78GEmjLX5Tr4^*W'
-export FTP_PASSWORD='KillBill2015'
+export PASSPHRASE=''
+export FTP_PASSWORD=''
 
 # doing a monthly full backup (1M)
 duplicity --full-if-older-than 1M /etc ftp://sd-70029@dedibackup-dc3.online.net/etc
