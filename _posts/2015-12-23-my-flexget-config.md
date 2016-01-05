@@ -102,3 +102,5 @@ tasks:
     # This is a custom plugin, it is part of my rar-unpacking method, it changes
     # 'movedone' based on the regexp in the key
 ```
+#The full config file is below.
+[Flexget config.yml](/file/home/rtorrent/.flexget/config.yml)
