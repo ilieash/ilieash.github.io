@@ -10,12 +10,12 @@
 date=`date +%d`
 
 # Setting the pass phrase to encrypt the backup files.
-export PASSPHRASE='BuL-?F3rx@Jx*3jF=wvjhLdSxKPYqk4Rxat$&yNhV+9^K5#2CEE%gGXKGksjY28wdK4#ww-YKEE-Wnd$VQTh+78GEmjLX5Tr4^*W'
+export PASSPHRASE=''
 export PASSPHRASE
 
 # Setting the password for the FTP account that the
 # backup files will be transferred to.
-FTP_PASSWORD='KillBill2015'
+FTP_PASSWORD=''
 export FTP_PASSWORD
 
 # Check to see if we're at the first of the month.
