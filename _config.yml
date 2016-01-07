@@ -23,11 +23,11 @@ footer-links:
   flickr:
   github: ilieash
   instagram:
-  linkedin: ilieash bulbul
+  linkedin: "ilieash bulbul"
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: ilieash
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  stackoverflow: users/5755055/ilieash# your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: u/0/102353294900141256219 # anything in your profile username that comes after plus.google.com/
 
