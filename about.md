@@ -14,5 +14,5 @@ After doing the Bachelor in Information Technology from Federation University Au
 I also love watching Documentary, Movies, TV shows, listening to music, discuss about Linux, Android and other technologies. Love playing Cricket and watching most of the sports specially soccer and cricket.
 
 ### Contact me
-{% include contact_me.html %}
+
 [ilieash.bulbul@gmail.com](mailto:ilieash.bulbul)
