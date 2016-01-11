@@ -14,15 +14,5 @@ After doing the Bachelor in Information Technology from Federation University Au
 I also love watching Documentary, Movies, TV shows, listening to music, discuss about Linux, Android and other technologies. Love playing Cricket and watching most of the sports specially soccer and cricket.
 
 ### Contact me
-<!-- Do not change the code! -->
-<a id="foxyform_embed_link_738544" href="http://www.foxyform.com/">foxyform</a>
-<script type="text/javascript">
-(function(d, t){
-   var g = d.createElement(t),
-       s = d.getElementsByTagName(t)[0];
-   g.src = "http://www.foxyform.com/js.php?id=738544&sec_hash=3804cefec49&width=350px";
-   s.parentNode.insertBefore(g, s);
-}(document, "script"));
-</script>
-<!-- Do not change the code! -->
+
 [ilieash.bulbul@gmail.com](mailto:ilieash.bulbul)
