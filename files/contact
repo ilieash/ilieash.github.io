@@ -1,0 +1,24 @@
+local USERNAME = '<SMTP USERNAME>'
+local PASSWORD = '<SMTP PASSWORD>'
+local SERVER = '<SMTP SERVER>'
+local RECAPTCHAKEY = '<RECAPTCHA PRIVATE KEY>'
+local recaptcha = require 'recaptcha'
+local markdown = require 'markdown'
+ 
+if recaptcha.validate(RECAPTCHAKEY, request) then
+	html = markdown(request.form.body)
+	email.send {
+		server = SERVER, username = USERNAME, password = PASSWORD,
+		from = 'hello@webscript.io', to = 'hello@webscript.io',
+		subject = '[contact form] '..request.form.subject,
+		text = request.form.body,
+		replyto = request.form.replyto,
+		html = html
+	}
+	return '<p>Sent the following mail:</p>'
+			..'<p>Subject: '..request.form.subject..'</p>'
+			..html,
+		{['Content-Type'] = 'text/html'}
+else
+	return 'Failed CAPTCHA.'
+end
