@@ -21,7 +21,7 @@ Best help would be the git man page you can access basic git help using `git hel
 init/clone/remote
 command                        | Description
 :-------------------------------|:-----------------------------------------------
-`git init`				                  |	 Create a repo from existing data			
+`git init`|	 Create a repo from existing data			
 `git clone (repo_url)`|	Clone a current repo (into a folder with same name as repo)
 `git clone (repo_url) (folder_name)`|	Clone a repo into a specific folder name
 `git clone (repo_url)` |	Clone a repo into current directory (should be an empty directory)
