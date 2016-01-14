@@ -16,4 +16,4 @@ I also love watching Documentary, Movies, TV shows, listening to music, discuss 
 ### Contact me
 
 [ilieash.bulbul@gmail.com](mailto:ilieash.bulbul).
-[comment]: <> ("[Contact Me form](/files/contact.html)")
+
