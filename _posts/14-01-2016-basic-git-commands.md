@@ -1,3 +1,9 @@
+---
+layout: post
+title: Usefull GIT commands
+comments: true
+---
+
 #***GIT*** Cheat Sheet
 
 A simple Git cheat sheet to work with basic command and a Git repo like github.
