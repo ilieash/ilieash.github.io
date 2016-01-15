@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Usefull GIT commands
 comments: true
 ---
