@@ -17,6 +17,12 @@ Best help would be the git man page you can access basic git help using `git hel
 *remote*				repository stored on another computer
 *staging (adding)*	adding changed files to index tree to be committed
 
+command                        | Description
+-------------------------------|-----------------------------------------------
+`git reset –hard`	|Go back to the last commit (will not delete new unstaged files)
+`git revert HEAD`|	Undo/revert last commit AND create a new commit
+`git revert (commit_id)`|	Undo/revert a specific commit AND create a new commit
+
 #Starting a Repo
 init/clone/remote
 command                        | Description
