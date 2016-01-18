@@ -54,6 +54,9 @@ baseurl: ""
 
 markdown: redcarpet
 
+kramdown:
+  input: GFM
+
 highlighter: pygments
 permalink: /:title/
 
