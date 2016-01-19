@@ -2,6 +2,7 @@
 layout: post
 title: My resume
 comment: true
+permalink: /files/resume/
 ---
 #Ilieash Bulbul
 Ilieash.bulbul@gmail.com
