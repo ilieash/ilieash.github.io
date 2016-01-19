@@ -6,7 +6,7 @@ permalink: /files/resume/
 ---
 #Ilieash Bulbul
 <p>Ilieash.bulbul@gmail.com</p>
-<p>< href=http://ilieash.github.io//>ilieash@github</p>
+<p>http://ilieash.github.io/</p>
 <p>0430837864</p>
 
 
