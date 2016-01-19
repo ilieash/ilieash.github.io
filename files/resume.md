@@ -5,9 +5,9 @@ comment: true
 permalink: /files/resume/
 ---
 #Ilieash Bulbul
-Ilieash.bulbul@gmail.com
+<p>Ilieash.bulbul@gmail.com
 http://ilieash.github.io/
-0430837864
+0430837864</p>
 
 
 ###LINUX-CERTIFIED SUPPORT TECHNICIAN
@@ -32,8 +32,8 @@ http://ilieash.github.io/
 
 ####IT support Technician (Systems and Networks) (July 2013 - Present)
 
-*Navitas Ltd, Sydney  *
-*www.navitas.com *
+*Navitas Ltd, Sydney*
+*www.navitas.com*
 
 Key Responsibilities:
 -	Supporting internal and external clients with complex technology either face to face, over the phone or via emails or service desk.
