@@ -5,9 +5,9 @@ comment: true
 permalink: /files/resume/
 ---
 #Ilieash Bulbul
-<p>Ilieash.bulbul@gmail.com
-http://ilieash.github.io/
-0430837864</p>
+<p>Ilieash.bulbul@gmail.com</p>
+<p>< href=http://ilieash.github.io//>ilieash@github</p>
+<p>0430837864</p>
 
 
 ###LINUX-CERTIFIED SUPPORT TECHNICIAN
