@@ -10,27 +10,27 @@ http://ilieash.github.io/
 0430837864
 
 
-#LINUX-CERTIFIED SUPPORT TECHNICIAN
+###LINUX-CERTIFIED SUPPORT TECHNICIAN
 
-•	Experienced IT support technician with a solid track record of system administration using Windows, UNIX like operating system and open source software.
-•	Hands on experience on both UNIX and Windows environment, computer security, Networking and numerous applications.
+-	Experienced IT support technician with a solid track record of system administration using Windows, UNIX like operating system and open source software.
+-	Hands on experience on both UNIX and Windows environment, computer security, Networking and numerous applications.
 
-#EXPERTIES
-•	Client OS: Windows XP, 7, Vista, MacOSX, Linux, ServerOS: Freebsd, Linux (Most distro), Windows server 2003,2008, OSX Server.
-•	Networking: Basic TCP/IP, FTP, HTTP, SMTP, VLAN, VPN, DHCP, NAT.
-•	Server Applications: Apache, FTP, Postfix, Samba, Communigate, Zabbix, Netatalk, LDAP, MySQL, MSSQL, Active Directory, Airwatch.
-•	Backup: Backup exec, Bacula, Timemachine with AFPD.
-•	Virtualization: Virtualbox, Vmware ESXI, Vmware Fusion.
-•	Version control: Subversion, Git
-•	Applications: Outlook, Office, IE, Firefox, Safari, Thunderbird, Mail, AVG Antivirus, Teamviewer, logmein.
-•	Language: C, C++, PHP, Python and Bash.
-•	Other than above I have a clear understanding of some other computer technologies
-
-
-#EMPLOYMENT HISTORY
+###EXPERTIES
+-	Client OS: Windows XP, 7, Vista, MacOSX, Linux, ServerOS: Freebsd, Linux (Most distro), Windows server 2003,2008, OSX Server.
+-	Networking: Basic TCP/IP, FTP, HTTP, SMTP, VLAN, VPN, DHCP, NAT.
+-	Server Applications: Apache, FTP, Postfix, Samba, Communigate, Zabbix, Netatalk, LDAP, MySQL, MSSQL, Active Directory, Airwatch.
+-	Backup: Backup exec, Bacula, Timemachine with AFPD.
+-	Virtualization: Virtualbox, Vmware ESXI, Vmware Fusion.
+-	Version control: Subversion, Git
+-	Applications: Outlook, Office, IE, Firefox, Safari, Thunderbird, Mail, AVG Antivirus, Teamviewer, logmein.
+-	Language: C, C++, PHP, Python and Bash.
+-	Other than above, I have a clear understanding of some key computer technologies.
 
 
-##IT support Technician (Systems and Networks) (July 2013 - Present)
+###EMPLOYMENT HISTORY
+
+
+####IT support Technician (Systems and Networks) (July 2013 - Present)
 
 *Navitas Ltd, Sydney  *
 *www.navitas.com *
@@ -47,7 +47,7 @@ Key Achievements
 -	Introduced a new monitoring system Zabbix, helped us monitor services more efficiently and effectively. Reduced downtime.
 
 
-##IT Helpdesk support (Oct 2011 - July 2013)
+####IT Helpdesk support (Oct 2011 - July 2013)
 
 *Australian College of Applied psychology, Sydney * 
 *www.acap.edu.au*
@@ -66,7 +66,7 @@ Key Achievements
 -	Involved in a massive system migration both hardware and operating systems.
 
 
-##Gizmo Tech – Remote Support (July 2011 - Oct 2011)
+####Gizmo Tech – Remote Support (July 2011 - Oct 2011)
 
 *Gizmo, Sydney*  
 *www.gizmo.com.au *
@@ -80,7 +80,7 @@ Key Achievements
 -	Familiarize with a lot of daily driver software for the end users and its function.
 -	Involved with small home office networking needs and provide solution.
 
-##Support Technician and System Admin (December 2010 - July 2011)
+####Support Technician and System Admin (December 2010 - July 2011)
 
 *Ish,  Sydney*  
 *www.ish.com.au *
@@ -109,11 +109,11 @@ Key achievements:
 -	Dealing with both technical and non-technical customer and build a professional relationship with them.
 
 
-#CERTIFICATES
+###CERTIFICATES
 -	RedHat Certified Technician (2009)
 
 
-#EDUCATION
+###EDUCATION
 
 -	BSc (Hons) Information Technology 
 Federation University, Australia 
@@ -127,11 +127,11 @@ Alphabeta Colleges, Sydney, Australia
  
 
 
-#PERSONAL INTERESTS
+###PERSONAL INTERESTS
 
 Working on my Unix server | Watching Sports | Playing Cricket | Movies | Universe | Documentary 
 
 
-#REFERENCES
+###REFERENCES
 
 References are available on request. 
