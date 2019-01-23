@@ -17,3 +17,6 @@ https://stackedit.io/editor
 Interective git learning site.
 
 https://try.github.io
+
+Expossed services
+https://www.shodan.io
