@@ -21,3 +21,7 @@ https://try.github.io
 Expossed services.
 
 https://www.shodan.io
+
+VIM for Python.
+
+https://realpython.com/vim-and-python-a-match-made-in-heaven
